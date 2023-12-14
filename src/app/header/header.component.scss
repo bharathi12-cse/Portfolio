@@ -37,6 +37,7 @@ body {
 .navbar{
     background: transparent;
     backdrop-filter: blur(10px);
+    
 }
 .navbar a {
     font-size: 20px;
@@ -44,7 +45,8 @@ body {
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
-    
+    background: transparent;
+    backdrop-filter: blur(10px);
 }
 
 .navbar a:hover,
