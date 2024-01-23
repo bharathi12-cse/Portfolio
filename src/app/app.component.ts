@@ -10,6 +10,8 @@ import { SectionComponent } from "./section/section.component";
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
+
+    
     styleUrl: './app.component.scss',
     imports: [CommonModule, RouterOutlet, HeaderComponent, SectionComponent]
 })

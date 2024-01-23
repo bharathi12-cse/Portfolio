@@ -54,3 +54,24 @@ body {
     color: #0ef;
 }
 
+@media (min-width:375px) and (max-width:767px) { // mobile view 
+    .header{
+        width: 100%;
+        background: red;
+        max-width: 1023px;
+        position: static;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1023px) { // tablet view 
+    .header{
+        width: 100%;
+        background: red;
+        max-width: 1023px;
+        position: static;
+    }
+
+}
+
+
